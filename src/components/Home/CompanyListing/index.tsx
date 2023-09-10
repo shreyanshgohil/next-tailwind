@@ -1,43 +1,51 @@
 import { SingleCompany } from "@/components/Global";
+import {
+  LayersSvg,
+  SisyphusSvg,
+  CircoolesSvg,
+  CatalogSvg,
+  QuotuebtSvg,
+  Logo,
+} from "@/utils/svg";
 
 // Company listing section
 const CompanyListing = () => {
   // Inits
   const companyList = [
     {
-      img: "/assets/images/layers.png",
+      img: <LayersSvg />,
       title: "Layers",
     },
     {
-      img: "/assets/images/sisyphus.png",
+      img: <SisyphusSvg />,
       title: "Sisyphus",
     },
     {
-      img: "/assets/images/circooles.png",
+      img: <CircoolesSvg />,
       title: "Circooles",
     },
     {
-      img: "/assets/images/catalog.png",
+      img: <CatalogSvg />,
       title: "catalog",
     },
     {
-      img: "/assets/images/quotuebt.png",
+      img: <QuotuebtSvg />,
       title: "Quotuebt",
     },
     {
-      img: "/assets/images/hourglass.png",
+      img: <Logo />,
       title: "Hourglass",
     },
   ];
   // JSX
   return (
     <div className="py-24">
-      <p className="text-gray500 font-medium text-center">
+      <p className="text-gray500 font-medium text-center mb-8">
         Join 4,000+ companies already growing
       </p>
-      <div>
-        {companyList.map((singleCompany) => {
-          return <SingleCompany />;
+      <div className="flex items-center justify-between">
+        {companyList.map((singleCompany, index) => {
+          return <SingleCompany singleCompany={singleCompany} key={index} />;
         })}
       </div>
     </div>

@@ -11,7 +11,11 @@ module.exports = {
       primary600: "#7F56D9",
       white: "#fff",
       primary200: "#E9D7FE",
+      gray800: "#1D2939",
       gray500: "#667085",
+      gray400: "#98A2B3",
+      gray200: "#EAECF0",
+      black: "#000",
       color_344054: "#344054",
     },
     extend: {

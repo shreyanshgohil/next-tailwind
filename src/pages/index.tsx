@@ -1,4 +1,4 @@
-import { Banner, CompanyListing } from "@/components/Home";
+import { Banner, CompanyListing, Features, CTA } from "@/components/Home";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -7,11 +7,19 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <main className={` ${inter.className}`}>
-      <div className="banner">
+      <section className="banner">
         <Banner />
-      </div>
-      <div className="company-list">
-        <CompanyListing />
+      </section>
+      <div className="px-[112px] ">
+        <section className="company-list border-b-2 border-solid border-gray200">
+          <CompanyListing />
+        </section>
+        <section>
+          <Features />
+        </section>
+        <section className="pb-24">
+          <CTA />
+        </section>
       </div>
     </main>
   );

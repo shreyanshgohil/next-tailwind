@@ -1,6 +1,5 @@
 import { ButtonPrimary, ButtonSecondary } from "@/components/Global";
 import { PlaySvg } from "@/utils/svg";
-import Image from "next/image";
 // Home page banner
 const Banner = () => {
   return (
@@ -19,8 +18,13 @@ const Banner = () => {
           <ButtonPrimary title="Demo" svg={<PlaySvg />} />
           <ButtonSecondary title="Sign up" />
         </div>
-        <div>
+        <div className="relative ">
           <img src={"/assets/images/banner.png"} alt="banner-image" />
+          <img
+            src={"/assets/images/light-accent.png"}
+            className="absolute bottom-0 right-0"
+            alt="banner-image"
+          />
         </div>
       </div>
     </div>
