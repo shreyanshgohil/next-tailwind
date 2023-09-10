@@ -10,14 +10,14 @@ export default function Home() {
       <section className="banner">
         <Banner />
       </section>
-      <div className="px-[112px] ">
+      <div className=" px-4 lg:px-10  xl:px-[112px] ">
         <section className="company-list border-b-2 border-solid border-gray200">
           <CompanyListing />
         </section>
         <section>
           <Features />
         </section>
-        <section className="pb-24">
+        <section className="pb-16 lg:pb-24">
           <CTA />
         </section>
       </div>

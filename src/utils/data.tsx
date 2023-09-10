@@ -1,3 +1,12 @@
+import {
+  LayersSvg,
+  SisyphusSvg,
+  CircoolesSvg,
+  CatalogSvg,
+  QuotuebtSvg,
+  Logo,
+} from "@/utils/svg";
+
 export const features = [
   {
     title: "Share team inboxes",
@@ -28,5 +37,32 @@ export const features = [
     title: "Our people make the difference",
     description:
       "We’re an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help.",
+  },
+];
+
+export const companyList = [
+  {
+    img: <LayersSvg />,
+    title: "Layers",
+  },
+  {
+    img: <SisyphusSvg />,
+    title: "Sisyphus",
+  },
+  {
+    img: <CircoolesSvg />,
+    title: "Circooles",
+  },
+  {
+    img: <CatalogSvg />,
+    title: "catalog",
+  },
+  {
+    img: <QuotuebtSvg />,
+    title: "Quotuebt",
+  },
+  {
+    img: <Logo />,
+    title: "Hourglass",
   },
 ];

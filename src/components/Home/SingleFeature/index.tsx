@@ -7,9 +7,11 @@ const SingleFeature: FC<SingleFeatureProps> = (props) => {
   const { singleFeature } = props;
   // JSX
   return (
-    <div className="flex flex-col gap-2 ">
-      <h4 className="text-black text-xl font-medium">{singleFeature.title}</h4>
-      <p className="text-base text-gray500 ">{singleFeature.description}</p>
+    <div className="flex flex-col gap-1 lg:gap-2 ">
+      <h4 className="text-black  text-lg lg:text-xl font-medium">
+        {singleFeature.title}
+      </h4>
+      <p className="text-base  text-gray500 ">{singleFeature.description}</p>
     </div>
   );
 };

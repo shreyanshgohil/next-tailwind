@@ -8,8 +8,8 @@ const ButtonPrimary: FC<ButtonPrimaryProps> = (props) => {
 
   // JSX
   return (
-    <div>
-      <button className="px-[18px] py-2.5 text-color_344054 font-medium bg-white rounded-lg flex items-center gap-3">
+    <div className="w-full md:w-auto">
+      <button className="px-[18px] w-full md:w-auto   py-2.5 text-color_344054 font-medium bg-white rounded-lg flex items-center justify-center gap-3">
         {svg}
         <p>{title}</p>
       </button>

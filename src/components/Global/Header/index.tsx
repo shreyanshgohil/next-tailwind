@@ -4,7 +4,7 @@ import ButtonSecondary from "../ButtonSecondary";
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between  bg-primary800 py-[18px] px-16 3xl:px-28">
+    <header className="flex items-center justify-between  bg-primary800 py-[18px] lg:px-10 xl:px-16 3xl:px-28">
       <div className="flex items-center gap-9 3xl:gap-10">
         <div className="logo flex items-center gap-4 3xl:gap-8">
           <div>

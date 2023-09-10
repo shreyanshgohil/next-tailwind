@@ -7,8 +7,8 @@ const ButtonSecondary: FC<ButtonSecondaryProps> = (props) => {
   const { title } = props;
   // JSX
   return (
-    <div>
-      <button className="px-[18px] py-2.5 text-white font-medium bg-primary600 rounded-lg">
+    <div className="w-full md:w-auto">
+      <button className="px-[18px] w-full md:w-auto  py-2.5 text-white font-medium bg-primary600 rounded-lg">
         {title}
       </button>
     </div>
