@@ -8,7 +8,11 @@ module.exports = {
   theme: {
     colors: {
       primary800: "#53389E",
+      primary600: "#7F56D9",
       white: "#fff",
+      primary200: "#E9D7FE",
+      gray500: "#667085",
+      color_344054: "#344054",
     },
     extend: {
       backgroundImage: {
@@ -16,6 +20,23 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+    },
+    screens: {
+      sm: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "768px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1280px",
+      // => @media (min-width: 1280px) { ... }
+
+      "2xl": "1536px",
+      // => @media (min-width: 1536px) { ... }
+      "3xl": "1736px",
     },
   },
   plugins: [],

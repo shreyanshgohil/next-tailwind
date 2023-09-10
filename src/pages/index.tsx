@@ -1,13 +1,18 @@
-import Image from "next/image";
+import { Banner, CompanyListing } from "@/components/Home";
 import { Inter } from "next/font/google";
-import Header from "@/components/Home/Global/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// Home page
 export default function Home() {
   return (
     <main className={` ${inter.className}`}>
-      <Header />
+      <div className="banner">
+        <Banner />
+      </div>
+      <div className="company-list">
+        <CompanyListing />
+      </div>
     </main>
   );
 }
