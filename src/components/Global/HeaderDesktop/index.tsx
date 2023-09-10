@@ -8,17 +8,19 @@ const HeaderDesktop = () => {
   return (
     <header className="flex items-center justify-between  bg-primary800 py-[18px] px-8 xl:px-16 3xl:px-28">
       <div className="flex items-center gap-6 lg:gap-10">
-        <div className="logo flex items-center gap-4 3xl:gap-8">
-          <div>
+        <div>
+          <Link href={"/"} className="logo flex items-center gap-4 3xl:gap-8">
             <Logo />
-          </div>
-          <p className="text-white font-semibold text-xl 2xl:text-[22px]">
-            Hourglass
-          </p>
+            <p className="text-white font-semibold text-xl 2xl:text-[22px]">
+              Hourglass
+            </p>
+          </Link>
         </div>
         <nav>
           <ul className=" flex gap-6">
-            <li className="text-base font-medium text-white">Home</li>
+            <li className="text-base font-medium text-white">
+              <Link href={"/"}>Home </Link>{" "}
+            </li>
             <li>
               <select
                 className="bg-primary800 text-white font-medium"
@@ -35,7 +37,9 @@ const HeaderDesktop = () => {
                 <option value="Resources">Resources</option>
               </select>
             </li>
-            <li className="text-base font-medium text-white">Pricing</li>
+            <li className="text-base font-medium text-white">
+              <Link href={"/"}> Pricing</Link>
+            </li>
           </ul>
         </nav>
       </div>

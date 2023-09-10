@@ -2,6 +2,7 @@ import { Hamburgermenu, Logo } from "@/utils/svg";
 import React, { FC } from "react";
 import MobileMenuItem from "../MobileMenuItem";
 import { HeaderMobileProps } from "./types";
+import Link from "next/link";
 
 //  Mobile header
 const HeaderMobile: FC<HeaderMobileProps> = (props) => {
@@ -16,13 +17,13 @@ const HeaderMobile: FC<HeaderMobileProps> = (props) => {
   // JSX
   return (
     <header className="flex items-center justify-between  bg-primary800 px-4 py-3.5">
-      <div className="logo flex items-center gap-4 3xl:gap-8">
-        <div>
+      <div>
+        <Link href={"/"} className="logo flex items-center gap-4 3xl:gap-8">
           <Logo />
-        </div>
-        <p className="text-white font-semibold text-xl 2xl:text-[22px]">
-          Hourglass
-        </p>
+          <p className="text-white font-semibold text-xl 2xl:text-[22px]">
+            Hourglass
+          </p>
+        </Link>
       </div>
       <div onClick={openMenuHandler}>
         <Hamburgermenu />

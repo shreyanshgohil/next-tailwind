@@ -21,7 +21,9 @@ const MobileMenuItem: FC<MobileMenuItemProps> = (props) => {
       </div>
       <nav>
         <ul className=" flex h-screen  flex-col items-center justify-center  gap-10 ">
-          <li className="text-base font-medium text-white">Home</li>
+          <li className="text-base font-medium text-white">
+            <Link href={"/"}>Home</Link>
+          </li>
           <li>
             <select
               className="bg-primary600 text-white font-medium"
@@ -38,7 +40,9 @@ const MobileMenuItem: FC<MobileMenuItemProps> = (props) => {
               <option value="Resources">Resources</option>
             </select>
           </li>
-          <li className="text-base font-medium text-white">Pricing</li>
+          <li className="text-base font-medium text-white">
+            <Link href={"/"}> Pricing </Link>
+          </li>
           <li>
             <Link href={"/"} className="text-white font-medium">
               Log in
