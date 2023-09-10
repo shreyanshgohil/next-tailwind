@@ -2,6 +2,7 @@ import { ButtonPrimary, ButtonSecondary } from "@/components/Global";
 import { PlaySvg } from "@/utils/svg";
 // Home page banner
 const Banner = () => {
+  // JSX
   return (
     <div className="pt-20 md:pt-24 bg-primary800">
       <div className="">

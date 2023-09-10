@@ -2,6 +2,7 @@ import { ButtonPrimary, ButtonSecondary } from "@/components/Global";
 import Image from "next/image";
 // Call to action component
 const CTA = () => {
+  // JSX
   return (
     <div className=" rounded-3xl grid  md:grid-cols-3  overflow-hidden">
       <div className="px-6 lg:px-16  flex  justify-center flex-col bg-primary800 pt-10 pb-12 lg:pt-0 lg:pb-0 md:col-span-2">

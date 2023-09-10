@@ -5,6 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 // Home page
 export default function Home() {
+  // JSX
   return (
     <main className={` ${inter.className}`}>
       <section className="banner">

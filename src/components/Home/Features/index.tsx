@@ -2,7 +2,10 @@ import { PowerSvg } from "@/utils/svg";
 import React from "react";
 import { features } from "@/utils/data";
 import SingleFeature from "../SingleFeature";
+
+// Features section home page
 const Features = () => {
+  // JSX
   return (
     <div className="grid md:grid-cols-3 py-16 md:py-24 gap-y-8  gap-x-12 lg:gap-10 xl:gap-16">
       <div>

@@ -4,9 +4,10 @@ import ButtonSecondary from "../ButtonSecondary";
 
 // Desktop header
 const HeaderDesktop = () => {
+  // JSX
   return (
     <header className="flex items-center justify-between  bg-primary800 py-[18px] px-8 xl:px-16 3xl:px-28">
-      <div className="flex items-center gap-6 3xl:gap-10">
+      <div className="flex items-center gap-6 lg:gap-10">
         <div className="logo flex items-center gap-4 3xl:gap-8">
           <div>
             <Logo />
@@ -16,7 +17,7 @@ const HeaderDesktop = () => {
           </p>
         </div>
         <nav>
-          <ul className=" flex gap-4">
+          <ul className=" flex gap-6">
             <li className="text-base font-medium text-white">Home</li>
             <li>
               <select
