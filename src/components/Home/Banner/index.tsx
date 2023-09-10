@@ -22,7 +22,11 @@ const Banner = () => {
           </div>
         </div>
         <div className="relative ">
-          <img src={"/assets/images/banner.png"} alt="banner-image" />
+          <img
+            src={"/assets/images/banner.png"}
+            alt="banner-image"
+            className="mx-auto"
+          />
           <img
             src={"/assets/images/light-accent.png"}
             className="absolute bottom-0 right-0"
