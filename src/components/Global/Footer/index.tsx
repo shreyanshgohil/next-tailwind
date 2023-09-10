@@ -1,4 +1,4 @@
-import Logo from "@/utils/svg";
+import { Logo } from "@/utils/svg";
 
 // Footer of website
 const Footer = () => {
