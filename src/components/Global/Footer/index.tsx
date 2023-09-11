@@ -5,8 +5,8 @@ const Footer = () => {
   // JSX
   return (
     <footer className="bg-gray800 flex  md:items-center md:justify-between flex-col md:flex-row px-4 lg:px-10 xl:px-28 py-6 xl:py-12">
-      <div className="logo flex items-center gap-4 3xl:gap-8">
-        <div className="mb-6 md:mb-0">
+      <div className="logo flex items-center gap-4 3xl:gap-8 mb-6 md:mb-0">
+        <div>
           <Logo />
         </div>
         <p className="text-white font-semibold text-[22px] ">Hourglass</p>
