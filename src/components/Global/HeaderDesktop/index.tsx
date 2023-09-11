@@ -23,7 +23,7 @@ const HeaderDesktop = () => {
             </li>
             <li>
               <select
-                className="bg-primary800 text-white font-medium"
+                className="bg-primary800 outline-none text-white font-medium"
                 defaultValue="Products"
               >
                 <option value="Products">Products</option>
@@ -31,7 +31,7 @@ const HeaderDesktop = () => {
             </li>
             <li>
               <select
-                className="bg-primary800 text-white font-medium"
+                className="bg-primary800 outline-none text-white font-medium"
                 defaultValue="Resources"
               >
                 <option value="Resources">Resources</option>

@@ -26,7 +26,7 @@ const MobileMenuItem: FC<MobileMenuItemProps> = (props) => {
           </li>
           <li>
             <select
-              className="bg-primary600 text-white font-medium"
+              className="bg-primary600 text-white font-medium outline-none"
               defaultValue="Products"
             >
               <option value="Products">Products</option>
@@ -34,7 +34,7 @@ const MobileMenuItem: FC<MobileMenuItemProps> = (props) => {
           </li>
           <li>
             <select
-              className="bg-primary600 text-white font-medium"
+              className="bg-primary600 text-white font-medium outline-none"
               defaultValue="Resources"
             >
               <option value="Resources">Resources</option>
